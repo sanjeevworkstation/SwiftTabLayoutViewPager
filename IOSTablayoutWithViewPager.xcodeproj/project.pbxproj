@@ -14,6 +14,8 @@
 		9018018A1F0ABE94007B1A72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901801881F0ABE94007B1A72 /* LaunchScreen.storyboard */; };
 		901801951F0ABE94007B1A72 /* IOSTablayoutWithViewPagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901801941F0ABE94007B1A72 /* IOSTablayoutWithViewPagerTests.swift */; };
 		901801A01F0ABE94007B1A72 /* IOSTablayoutWithViewPagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9018019F1F0ABE94007B1A72 /* IOSTablayoutWithViewPagerUITests.swift */; };
+		901801AE1F0ABEC8007B1A72 /* DisplayContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901801AD1F0ABEC8007B1A72 /* DisplayContentViewController.swift */; };
+		901801BB1F0ABF69007B1A72 /* TabLayoutScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901801BA1F0ABF69007B1A72 /* TabLayoutScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9018019B1F0ABE94007B1A72 /* IOSTablayoutWithViewPagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTablayoutWithViewPagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9018019F1F0ABE94007B1A72 /* IOSTablayoutWithViewPagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTablayoutWithViewPagerUITests.swift; sourceTree = "<group>"; };
 		901801A11F0ABE94007B1A72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		901801AD1F0ABEC8007B1A72 /* DisplayContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayContentViewController.swift; sourceTree = "<group>"; };
+		901801BA1F0ABF69007B1A72 /* TabLayoutScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabLayoutScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				9018017F1F0ABE94007B1A72 /* AppDelegate.swift */,
+				901801BA1F0ABF69007B1A72 /* TabLayoutScrollView.swift */,
 				901801811F0ABE94007B1A72 /* ViewController.swift */,
+				901801AD1F0ABEC8007B1A72 /* DisplayContentViewController.swift */,
 				901801831F0ABE94007B1A72 /* Main.storyboard */,
 				901801861F0ABE94007B1A72 /* Assets.xcassets */,
 				901801881F0ABE94007B1A72 /* LaunchScreen.storyboard */,
@@ -262,6 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				901801AE1F0ABEC8007B1A72 /* DisplayContentViewController.swift in Sources */,
+				901801BB1F0ABF69007B1A72 /* TabLayoutScrollView.swift in Sources */,
 				901801821F0ABE94007B1A72 /* ViewController.swift in Sources */,
 				901801801F0ABE94007B1A72 /* AppDelegate.swift in Sources */,
 			);

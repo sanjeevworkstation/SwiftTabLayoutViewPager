@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  DisplayContentViewController.swift
 //  IOSTablayoutWithViewPager
 //
 //  Created by Sanjeev .Gautam on 03/07/17.
@@ -8,12 +8,16 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class DisplayContentViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    var pageNumber: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.label.text = pageNumber ?? ""
     }
 
     override func didReceiveMemoryWarning() {
