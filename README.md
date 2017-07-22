@@ -4,8 +4,7 @@
 ____________________________________________________________________________________________
 Design Tab Layout View pager for IOS same as android native component.
 
-![](http://i.imgur.com/RS5D0xX.png)
-![](http://i.imgur.com/pM4MzNv.png)
+<img src="http://i.imgur.com/RS5D0xX.png" alt="HTML5 Icon" style="width:128px;height:128px;">
 
 ### Basic
 ____________________________________________________________________________________________
