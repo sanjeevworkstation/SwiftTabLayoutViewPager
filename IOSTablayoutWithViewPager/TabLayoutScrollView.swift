@@ -230,6 +230,22 @@ class TabLayoutScrollView: UIView {
         self.autoScrollToScrollView(sender)
     }
     
+    //MARK:- use this method to select a tab by tab position dynamically. Tab position starts from 0
+    func selectTabByPosition(index: Int) {
+        let tabIndex = index - 1
+        if let btn = self.scrollView?.viewWithTag(tabIndex) as? UIButton {
+            selectedHeaderButton = btn
+            
+            // call delegate to send notifcaiton of selected button
+            if self.delegate != nil {
+                self.delegate!.tabLayoutScrollView!(tabLayoutView: self, didSelectedTabInView: tabIndex)
+            }
+            
+            // scroll line & scrollview to selected button
+            self.autoScrollToScrollView(btn)
+        }
+    }
+    
     //MARK:- View Animation
     func autoScrollToScrollView(_ sender:UIButton!) {
         
